@@ -1,0 +1,15 @@
+/* Hide hamburger on desktop */
+.hamburger-btn {
+  display: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .desktop-links {
+    display: none !important;
+  }
+
+  .hamburger-btn {
+    display: block !important;
+  }
+}
